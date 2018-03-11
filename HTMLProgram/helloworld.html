@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>百度一下，你就知道</title>
+    <link rel="stylesheet" href="./baidu.css" type="text/css" />
+
+
+</head>
+
+<body>
+    <div align="right">
+        <p style="word-spacing: 30px;margin-bottom:0;">
+            <a href="https://news.google.com/" style="color:black; ">新闻</a>
+            <a href="https://map.google.com/" style="color: black;">地图</a>
+            <a href="https://www.google.com/videohp?gws_rd=ssl/" style="color: black;">视频</a>
+            <a href="https://plus.google.com/discover" style="color: black;">贴吧</a>
+            <a href="https://scholar.google.com" style="color:black;">学术</a>
+            <input type="button" id="more" onclick="location.href='https://www.google.com/intl/en/about/products/'" value="更多产品" style="width:80px;height:30px;border-color:#3399ff;border-width:3px;border-style:solid;padding:5px; background-color: #3399ff;color:white;"
+            />
+        </p>
+        <span id="caidan" style="visibility: hidden;">
+            <p class="anniu">
+                <input type="button" class="xiala" onclick="location.href='https://malwaretips.com/blogs/remove-hao123-virus/'" value="hao123"
+                />
+            </p>
+            <p class="anniu">
+                <input type="button" class="xiala" onclick="location.href='https://www.google.com/chrome/browser/desktop/index.html?brand=CHBD&ds_kid=43700010857936957&gclid=EAIaIQobChMIr_vMgOWJ2QIVDzobCh1tGQNpEAAYASAAEgLci_D_BwE&gclsrc=aw.ds&dclid=CJLEpYrlidkCFQZ9Ygod0nUAvw'"
+                    value="百度浏览器" />
+            </p>
+        </span>
+    </div>
+    <div1>
+        <center onclick="location.href='https://www.google.ca/search?q=%E4%BB%8A%E6%97%A5%E6%96%B0%E9%B2%9C%E4%BA%8B&ie=&oe='">
+            <div class="lb" id="lunbo">
+                <div class="picit" id="pi" style="left:-300px;">
+                    <img src="bd_logo1.png">
+                    <img src="bd_logo2.jpg">
+                    <img src="wdlx1.jpg">
+                    <img src="wdlx2.jpg">
+                    <img src="wdlx3.jpg">
+                    <img src="wdlx4.jpg">
+                    <img src="bd_logo1.png">
+                    <img src="bd_logo2.jpg">
+                </div>
+
+            </div>
+        </center>
+    </div1>
+    <div3>
+        <center>
+            <form method="get" name="searchform" action="http://www.google.com/search" target="_blank">
+                <input alt="search" type="text" name="as_q" class="liuyan" style="height:20px;width: 500px; " />
+                <input type="submit" name="btn1" onclick='search_1()' value="百度一下" style="width:80px;height:34px;border-color:#3399ff;border-width:3px;border-style:solid;padding:5px; background-color: #3399ff;color:white;">
+            </form>
+        </center>
+    </div3>
+    <div id="liuyanban" style="visibility: hidden;">
+
+        <form style="margin-top: 25px; margin-left: 150px; margin-right: 0;">
+            <div style="width:600px;float: left;">
+                <span align="right">你的百度账号名:</span>
+                <input type="text" name="yourname" id="myname" class="liuyan" style="height:20px;width:380px;">
+                <br>
+
+                <span>对百度的建议或留言:</span>
+                <br>
+
+                <textarea id="mycontent" class="liuyan" style="height:200px; width:500px;"></textarea>
+                <br>
+                <br>
+                <input id="butone" class="xiala" style="position: relative; left: 150px;" type="button" value="提交">
+                <input id="buttwo" class="xiala" style="position: relative; left: 150px;" type="button" value="查看">
+                <input id="butthr" class="xiala" style="position: relative; left: 150px;" type="button" value="清除">
+            </div>
+
+
+        </form>
+        留言：
+        <div id="kuang" class="liuyan" style="width: 400px;height: 280px; margin-right:150px; margin-left: 0; float: left;">
+        </div>
+
+    </div>
+
+    <div>
+        <img src="qrcode.png" align="center" style="margin-top: 10px; height: 60px; width: 60px; position: relative; left:-110px;">
+        <center>
+            <p>
+                <font size="2" color="grey">百度</font>
+            </p>
+        </center>
+        <center>
+            <div5 style="word-spacing:10px;">
+                <a href="https://www.google.com/intl/zh-CN/homepage/hp-edge.html" style="color: grey;font-size:70%;">把百度设为主页</a>
+                <a href="https://www.google.com/intl/zh-cn/about/?fg=1&utm_source=google.com&utm_medium=referral&utm_campaign=hp-header "
+                    style="color: grey;font-size:70%;">关于百度</a>
+                <a href="https://www.google.com/intl/en/about/?fg=1&utm_source=google.com&utm_medium=referral&utm_campaign=hp-header " style="color: grey;font-size:70%;">About Baidu</a>
+                <a href="https://www.google.com/intl/zh-cn/ads/" style="color: grey;font-size:70%;">百度推广</a>
+            </div5>
+        </center>
+        <center>
+            <div6 style="color: grey;font-size:70%;">
+                ©2018 Baidu
+            </div6>
+            <div7>
+                <a href="https://www.google.com/intl/zh-CN/policies/terms/" style="color: grey;font-size:70%;">使用百度前必读</a>
+                <span id="yijian" style="color: grey;font-size:70%; text-decoration: underline;">意见反馈</span>
+            </div7>
+            <div8 style="color: grey;font-size:70%;">
+                京ICP证030173号
+                <img src="police.png" style="height:15px; width:10px;">
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001" style="color: grey;font-size:70%;">京公网安备11000002000001号</a>
+                <img src="beianbgs.png" style="width: 15px; height: 15px;">
+            </div8>
+        </center>
+    </div>
+    <script type="text/javascript" src="lunbo.js">
+    </script>
+    <script type="text/javascript" src="xiala.js">
+    </script>
+    <script type="text/javascript" src="search.js">
+    </script>
+    <script type="text/javascript" src="liuyan.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+.pic {
+    width: 300px;
+    height: 160px;
+}
+.lb {
+    position: relative;
+    width: 300px;
+    height: 160px;
+    margin: 80px auto 0 auto;
+    overflow: hidden;
+}
+.picit {
+    position: relative;
+    width: 2400px;
+    height: 160px;
+    z-index: 1;
+}
+.lb .picit img {
+    float: left;
+    width: 300px;
+    height: 160px;
+}
+.anniu {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.xiala {
+    
+    width: 80px;
+    height: 30px;
+    border-color: #3399ff;
+    border-width: 3px;
+    border-style: solid;
+    padding: 0; 
+    background-color: #3399ff;
+    color: white;
+}
+.liuyan {
+    border-color: #3399ff;
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px;
+}
